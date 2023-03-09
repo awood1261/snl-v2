@@ -1,4 +1,5 @@
 import React from 'react';
+import './button.css';
 
 const Button = ({ size, style, url, isDisabled, text }) => {
   const buttonStyle = `btn btn--${style} btn--${size} ${isDisabled ? 'disabled' : ''}`;

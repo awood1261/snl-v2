@@ -5,7 +5,22 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        PrimaryCtaSurface: '#aa4701',
+        PrimaryCtaSurfaceTop: '#aa4e06',
+        PrimaryCtaSurfaceBtm: '#9b420a',
+        PrimaryCtaText: '#df8232',
+        PrimaryBgSurface: '#160d0c',
+        SecondaryContentSurface: '#1a1110',
+        SecondaryInputSurface: '#2a211f',
+        SecondaryContentText: '#97633f',
+        MainNavText: '#a66327',
+        SecondaryCtaTopSurface: '#c1701c',
+        SecondaryCtaBtmSurface: '#ad590d',
+        SecondaryCtaText: '#732902',
+      },
+    },
   },
   plugins: [],
 }

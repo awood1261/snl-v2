@@ -1,0 +1,21 @@
+.btn {
+    @apply rounded-2xl;
+}
+.btn:hover {
+    @apply hover:brightness-110
+}
+.btn--small {
+    @apply py-2 px-4;
+}
+.btn--medium {
+    @apply py-3 px-6;
+}
+.btn--large {
+    @apply p-4;
+}
+.btn--primary {
+    @apply bg-gradient-to-b from-PrimaryCtaSurfaceTop to-PrimaryCtaSurfaceBtm text-PrimaryCtaText;
+}
+.btn--secondary {
+    @apply bg-gradient-to-b from-SecondaryCtaTopSurface to-SecondaryCtaBtmSurface text-PrimaryCtaText;
+}
