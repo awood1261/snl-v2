@@ -1,5 +1,5 @@
 .btn {
-    @apply rounded-2xl;
+    @apply rounded-full;
 }
 .btn:hover {
     @apply hover:brightness-110
