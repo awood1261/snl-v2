@@ -1,5 +1,5 @@
 .btn {
-    @apply rounded-full;
+    @apply rounded-full self-start;
 }
 .btn:hover {
     @apply hover:brightness-110

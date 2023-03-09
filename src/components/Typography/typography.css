@@ -1,0 +1,27 @@
+.heading {
+    @apply font-serif text-7xl uppercase;
+}
+
+.subheading {
+    @apply font-serif text-3xl;
+}
+
+.body, .caption, .button, .link {
+    @apply font-sans;
+}
+
+.body {
+    @apply text-base;
+}
+
+.caption {
+    @apply text-sm uppercase;
+}
+
+.button {
+    @apply text-base;
+}
+
+.link {
+    @apply text-base;
+}

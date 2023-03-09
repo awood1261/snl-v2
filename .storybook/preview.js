@@ -12,6 +12,10 @@ const preview = {
           value: "#150d0c"
         },
         {
+          name: 'vinylwhiskey',
+          value: '#181815'
+        },
+        {
           name: "coffeebrown",
           value: "#5e2408"
         },

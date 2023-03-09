@@ -19,6 +19,11 @@ module.exports = {
         SecondaryCtaTopSurface: '#c1701c',
         SecondaryCtaBtmSurface: '#ad590d',
         SecondaryCtaText: '#732902',
+        VinylWhiskeySurface: '#181815'
+      },
+      fontFamily: {
+        'sans': ['Montserrat', 'sans-serif'],
+        'serif': ['Abril Fatface', 'serif'],
       },
     },
   },

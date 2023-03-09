@@ -1,0 +1,11 @@
+.homehero {
+    height: 700px;
+}
+
+.homehero .heading {
+    @apply mb-3;
+}
+
+.homehero .caption {
+    @apply mb-10;
+}
