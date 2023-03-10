@@ -1,13 +1,9 @@
-.homehero {
-    height: 700px;
-}
-
 .homehero .heading {
-    @apply mb-3 p-3 bg-SecondaryInputSurface/50;
+    @apply mb-3 p-3 bg-black/50 self-start max-w-xs;
 }
 
 .homehero .subheading {
-    @apply p-3 bg-SecondaryInputSurface/50;
+    @apply p-3 bg-black/50 self-start;
 }
 
 .homehero .caption {

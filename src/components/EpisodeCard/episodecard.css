@@ -1,0 +1,16 @@
+.episodecard {
+    height: 200px;
+}
+
+.episodecard a {
+    height: 200px;
+    min-width: 320px;
+}
+
+.episodecard .subheading {
+    @apply bg-black/50 p-2;
+}
+
+.episodecard .body {
+    @apply bg-black/50 p-2;
+}
