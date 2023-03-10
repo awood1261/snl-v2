@@ -12,7 +12,8 @@ const HomeHero = ({
   publishDate,
 }) => {
   return (
-    <div className="bg-bottom-right bg-no-repeat bg-[url('../public/vinyl-whiskey.png')]">
+    <div className="bg-bottom-right bg-no-repeat relative bg-[url('../public/vinyl-whiskey4.jpg')]">
+      <img src="../public/snl-skeleton.png" className="absolute top-4 left-4 w-40 h-40" alt="" />
       <ul class="flex justify-center space-x-4 pt-8 mb-14">
         <li>
           <a href="#" class="text-amber-500 hover:text-amber-300">
@@ -36,7 +37,7 @@ const HomeHero = ({
         </li>
       </ul>
 
-      <div className="homehero max-w-5xl flex flex-col">
+      <div className="homehero mt-44 ml-12 flex flex-col">
         <Typography variant={"heading"} element="h2" className="mb-2">
           {headingText}
         </Typography>

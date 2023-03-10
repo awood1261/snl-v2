@@ -1,8 +1,8 @@
 .btn {
-    @apply rounded-full self-start;
+    @apply rounded-full self-start transition-all;
 }
 .btn:hover {
-    @apply hover:brightness-110
+    @apply hover:brightness-110 hover:scale-110 duration-300
 }
 .btn--small {
     @apply py-2 px-4;
@@ -14,8 +14,8 @@
     @apply p-4;
 }
 .btn--primary {
-    @apply bg-gradient-to-b from-PrimaryCtaSurfaceTop to-PrimaryCtaSurfaceBtm text-PrimaryCtaText;
+    @apply bg-gradient-to-b from-PrimaryCtaSurfaceTop to-PrimaryCtaSurfaceBtm text-amber-200;
 }
 .btn--secondary {
-    @apply bg-gradient-to-b from-SecondaryCtaTopSurface to-SecondaryCtaBtmSurface text-PrimaryCtaText;
+    @apply bg-gradient-to-b from-SecondaryCtaTopSurface to-SecondaryCtaBtmSurface text-amber-200;
 }
