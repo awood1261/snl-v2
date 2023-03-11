@@ -32,6 +32,6 @@ const args = {
 };
 
 export const HomeHeroDefault = () => (
-  <HomeHero {...args} variant="heading" element="h1" headingText="Infinity" subHeadingText={'Infinity Bottle, Psyche 16, Ouroboros, Big K.R.I.T.'} />
+  <HomeHero {...args} variant="heading" element="h1" headingText="Sippin' On Infinity" subHeadingText={'Infinity Bottle, Psyche 16, Ouroboros, Big K.R.I.T.'} />
 );
 HomeHeroDefault.storyName = "Home Page Hero";

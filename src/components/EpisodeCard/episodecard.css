@@ -1,10 +1,9 @@
 .episodecard {
-    height: 200px;
+    width: 33%;
 }
 
 .episodecard a {
-    height: 200px;
-    min-width: 320px;
+    height: 300px;
 }
 
 .episodecard .subheading {

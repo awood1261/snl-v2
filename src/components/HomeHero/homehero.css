@@ -1,11 +1,7 @@
 .homehero .heading {
-    @apply mb-3 p-3 bg-black/50 self-start max-w-xs;
+    @apply mb-3 p-3 bg-black/50 self-start max-w-md;
 }
 
 .homehero .subheading {
     @apply p-3 bg-black/50 self-start;
-}
-
-.homehero .caption {
-    @apply mb-10;
 }
