@@ -6,6 +6,7 @@ import Button from "../Button/Button";
 import EpisodeCard from "../EpisodeCard/EpisodeCard";
 import SegueCallouts from "../SegueCallouts/SegueCallouts";
 import Footer from "../Footer/Footer";
+import Nav from "../Nav/Nav";
 
 const HomeHero = ({
   headingText,
@@ -17,34 +18,7 @@ const HomeHero = ({
   return (
     <>
       <div className="bg-cover pt-10 pb-72 bg-no-repeat relative bg-[url('../public/inf-cosmos1.jpg')]">
-        <img
-          src="../public/snl-skeleton.png"
-          className="absolute top-4 left-4 w-40 h-40"
-          alt=""
-        />
-        <ul class="flex space-x-4 pt-8 mb-14 ml-52">
-          <li>
-            <a href="#" class="text-amber-500 hover:text-amber-300">
-              Episodes
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-amber-500 hover:text-amber-300">
-              How To Listen
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-amber-500 hover:text-amber-300">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-amber-500 hover:text-amber-300">
-              Sponsors
-            </a>
-          </li>
-        </ul>
-
+        <Nav />
         <div className="homehero mt-52 ml-12 flex flex-col">
           <Typography variant={"caption"} element="span" className={"mb-1"}>
             Latest Episode

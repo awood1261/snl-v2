@@ -7,7 +7,7 @@ function SegueCallouts() {
   return (
     <>
       <div className="flex">
-        <div className="bg-SecondaryInputSurface text-amber-100 w-1/2 p-28 bg-cover bg-no-repeat relative bg-[url('../public/ghostmail.png')]">
+        <div className="bg-SecondaryInputSurface text-amber-100 w-1/2 p-28 bg-cover bg-no-repeat relative bg-[url('../public/ghostmail2.png')]">
           <Typography
             variant={"subheading"}
             element="h4"

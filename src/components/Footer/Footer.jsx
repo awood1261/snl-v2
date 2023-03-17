@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-            <Typography variant={'heading'} element='h4' className={'text-amber-500'}>Spirits & Lyrics</Typography>
-            <Typography variant={'body'} element='p'>Spirits & Lyrics is produced by Alex and Travis Wood and recorded in Philadelphia & Lansdale PA.</Typography>
+            <Typography variant={'heading'} element='h4' className={'text-amber-500'}>Spirits <span className='text-orange-700'>&</span> Lyrics</Typography>
+            <Typography variant={'body'} element='p'>Spirits <span className='text-orange-700'>&</span> Lyrics is produced by Alex and Travis Wood and recorded in Philadelphia & Lansdale PA.</Typography>
           </div>
           <div className="w-full md:w-1/2 px-4">
             <div className="flex flex-wrap -mx-4">

@@ -37,12 +37,18 @@ const EpisodeCard = ({ imageUrl, title, url, description }) => {
 
 const EpisodeList = () => {
   const episodes = [
+    // {
+    //   imageUrl: "../../public/md-ten2.png",
+    //   title: "Middle Tennessee",
+    //   url: "https://example.com/episode1",
+    //   description: "Description of episode 1",
+    // },
     {
-      imageUrl: "../../public/md-ten.png",
-      title: "Middle Tennessee",
-      url: "https://example.com/episode1",
-      description: "Description of episode 1",
-    },
+        imageUrl: "../../public/va-beach.png",
+        title: "Virginia Beach",
+        url: "https://example.com/episode1",
+        description: "Description of episode 1",
+      },
     {
       imageUrl: "../../public/hokkaido-mountains.png",
       title: "Hokkaido",
